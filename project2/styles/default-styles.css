@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b1ddf1;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    width: 75%;
+}
+
+.marker {
+    background-image: url('../images/coffee-icon.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.poi {
+    background-image: url('../images/mapbox-icon.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* image icon credit: https://cdn4.vectorstock.com/i/1000x1000/31/93/realistic-weather-icons-on-transparent-vector-22853193.jpg */
+
+.Clear {
+    background-image: url('../images/clearIcon.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Clouds {
+    background-image: url('../images/cloudsIcon.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Drizzle {
+    background-image: url('../images/drizzleIcon.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.other {
+    background-image: url('../images/fogIcon.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Rain {
+    background-image: url('../images/rainIcon.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Snow {
+    background-image: url('../images/snowIcon.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Thunderstorm {
+    background-image: url('../images/thunderstormIcon.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Tornado {
+    background-image: url('../images/tornadoIcon.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#controls {
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 20px;
+    width: 130px;
+    height: 120px;
+    background-color: lightgray;
+    border: 1px solid black;
+    height: auto;
+}
+
+#controls button {
+    font-size: .9em;
+    width: 100%;
+    background-color: #335c81;
+}
+
+#controls button:hover {
+    color: #777;
+    background-color: #335c81;
+}
+
+#image {
+    height: 100px;
+}
+
+@font-face {
+    font-family: Courgette-Regular;
+    src: url("font/C/Courgette-Regular.ttf");
+}
+@font-face {
+    font-family: Inter;
+    src: url("font/I/Inter.ttf");
+}
+
+h1 {
+    color: #274060;
+    font-family: Courgette-Regular;
+    font-size: 40pt;
+}
+
+#title {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+p {
+    color: #1b2845;
+    font-family: Inter;
+    font-size: 20pt;
+}
+
+#weatherInformation {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
